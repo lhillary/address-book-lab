@@ -44,6 +44,7 @@
             myBook.print();
             console.log('');
         } else if (ask === 'Quit') {
+            console.log('Farewell!')
             break;
         } else if (ask === null) {
             break;
