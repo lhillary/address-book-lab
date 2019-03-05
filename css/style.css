@@ -1,0 +1,99 @@
+html {
+  background: url(../assets/bg.jpg) no-repeat center center fixed;
+  background-size: cover;background-image: url(../assets/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: Sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+  font-weight: normal;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  width: 60%;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+input {
+  display: block;
+  border: none;
+  width: 88%;
+  height: 32px;
+  margin: 20px auto;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.contacts-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contacts {
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  max-width: 1250px;
+  justify-content: center;
+}
+
+.entry {
+  flex: 1;
+  max-width: 275px;
+  min-width: 275px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 10px 10px;
+  padding: 10px 7px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.entryList {
+  list-style:none;
+}
+
+#relation {
+  display: block;
+  border: none;
+  width: 90%;
+  height: 32px;
+  margin: 20px auto;
+}
+
+#button {
+    width: 90%;
+}
+
+.delete {
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 100px;
+  height: 25px;
+  position: absolute;
+  right: -12px;
+  bottom: -10px;
+  width: 25px;
+}
+
+.icon {
+    background-image: url(../assets/trash.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
