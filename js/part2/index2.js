@@ -9,13 +9,7 @@
       ];
     }
     add() {
-      const info = {
-        name: document.querySelector('#name').value, 
-        email: document.querySelector('#email').value, 
-        phone: document.querySelector('#phone').value, 
-        relation: document.querySelector('#relation').value
-      };
-      let newContact = new Contact(info.name, info.email, info.phone, info.relation);
+      let newContact = new Contact(name.value, email.value, phone.value, relation.value);
       this.contacts.push(newContact); 
     }
     deleteAt(index) {
